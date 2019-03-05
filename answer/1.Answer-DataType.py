@@ -22,7 +22,12 @@ print(str(30))
 
 # 5. 다음 문자열 "Niceman" 에서 "man" 문자열만 추출해보세요.(문자열 함수 사용)
 name = 'Niceman'
-print(name[4:7])
+n = name.find('man')
+print(n)
+print(name[4]+name[5]+name[6])
+a = name.split('e')[1]
+print(a)
+
 
 # 6. 다음 문자열을 거꾸로 출력해보세요. : "Strawberry"
 name = 'Strawberry'
